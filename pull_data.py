@@ -2,11 +2,12 @@ from bs4 import BeautifulSoup
 import urllib.request
 import requests
 import os
+import sys
 
-site = "https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/"
+site = sys.argv[0]
 soup = BeautifulSoup(requests.get(site).content, "html.parser")
 problems = soup.find_all("h4",{"class":"prob-title"})
-path = "./Basic_Programming/Basics_of_Input_Output/"
+path = sys.argv[1]
 if os.path.exists(path) == False:
     os.makedirs(path)
 
