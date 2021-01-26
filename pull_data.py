@@ -4,10 +4,10 @@ import requests
 import os
 import sys
 
-site = sys.argv[0]
+site = sys.argv[1]
 soup = BeautifulSoup(requests.get(site).content, "html.parser")
 problems = soup.find_all("h4",{"class":"prob-title"})
-path = sys.argv[1]
+path = sys.argv[2]
 if os.path.exists(path) == False:
     os.makedirs(path)
 

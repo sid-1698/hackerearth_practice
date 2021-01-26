@@ -1,0 +1,1 @@
+# https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/bob-and-beauty-of-the-array-3b35ef14/

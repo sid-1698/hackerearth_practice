@@ -1,0 +1,1 @@
+# https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/approximate/bank-happiness-index-832c0852/
