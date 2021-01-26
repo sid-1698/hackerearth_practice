@@ -1,1 +1,1 @@
-# https://www.hackerearth.com//practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/database-0c7cce47/
+# https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/database-0c7cce47/

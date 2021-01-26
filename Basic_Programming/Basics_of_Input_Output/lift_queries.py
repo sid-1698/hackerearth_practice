@@ -1,1 +1,1 @@
-# https://www.hackerearth.com//practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/lift-queries/
+# https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/lift-queries/

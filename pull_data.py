@@ -18,7 +18,7 @@ while next_page >= page:
     problems = soup.find_all("h4",{"class":"prob-title"})
     for prob in problems:
         link = prob.find("a").get("href")
-        link = "https://www.hackerearth.com/"+link
+        link = "https://www.hackerearth.com"+link
         prob_name = link.split("/")[-2]
         prob_name = prob_name.replace("-","_")
         if os.path.exists(path+prob_name+".py") == False:
